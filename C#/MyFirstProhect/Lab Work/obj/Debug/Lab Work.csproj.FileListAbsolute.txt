@@ -1,0 +1,7 @@
+C:\Users\sande\Desktop\C#\MyFirstProhect\Lab Work\bin\Debug\Lab Work.exe.config
+C:\Users\sande\Desktop\C#\MyFirstProhect\Lab Work\bin\Debug\Lab Work.exe
+C:\Users\sande\Desktop\C#\MyFirstProhect\Lab Work\bin\Debug\Lab Work.pdb
+C:\Users\sande\Desktop\C#\MyFirstProhect\Lab Work\obj\Debug\Lab Work.csproj.AssemblyReference.cache
+C:\Users\sande\Desktop\C#\MyFirstProhect\Lab Work\obj\Debug\Lab Work.csproj.CoreCompileInputs.cache
+C:\Users\sande\Desktop\C#\MyFirstProhect\Lab Work\obj\Debug\Lab Work.exe
+C:\Users\sande\Desktop\C#\MyFirstProhect\Lab Work\obj\Debug\Lab Work.pdb

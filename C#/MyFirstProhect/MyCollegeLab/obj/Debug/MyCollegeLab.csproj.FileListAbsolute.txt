@@ -1,0 +1,7 @@
+C:\Users\sande\Desktop\C#\MyFirstProhect\MyCollegeLab\obj\Debug\MyCollegeLab.csproj.AssemblyReference.cache
+C:\Users\sande\Desktop\C#\MyFirstProhect\MyCollegeLab\obj\Debug\MyCollegeLab.csproj.CoreCompileInputs.cache
+C:\Users\sande\Desktop\C#\MyFirstProhect\MyCollegeLab\bin\Debug\MyCollegeLab.exe.config
+C:\Users\sande\Desktop\C#\MyFirstProhect\MyCollegeLab\bin\Debug\MyCollegeLab.exe
+C:\Users\sande\Desktop\C#\MyFirstProhect\MyCollegeLab\bin\Debug\MyCollegeLab.pdb
+C:\Users\sande\Desktop\C#\MyFirstProhect\MyCollegeLab\obj\Debug\MyCollegeLab.exe
+C:\Users\sande\Desktop\C#\MyFirstProhect\MyCollegeLab\obj\Debug\MyCollegeLab.pdb
