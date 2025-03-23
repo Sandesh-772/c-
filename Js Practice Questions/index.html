@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        textarea {
+            width: 80%;
+            height: 100px;
+            margin: 10px 0;
+        }
+        input {
+            padding: 5px;
+            margin: 10px;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Word & Character Counter</h2>
+    <textarea id="textInput" placeholder="Type or paste your text here..."></textarea>
+    <br>
+    <input type="text" id="searchWord" placeholder="Enter word to count">
+    <button onclick="countWords()">Analyze</button>
+
+    <div class="result">
+        <p>Total Words: <span id="wordCount">0</span></p>
+        <p>Total Characters (without spaces): <span id="charCount">0</span></p>
+        <p>Occurrences of "<span id="wordSearch"></span>": <span id="wordOccurrences">0</span></p>
+    </div>
+
+    <script>
+        function countWords() {
+            let text = document.getElementById("textInput").value.trim();
+            let searchWord = document.getElementById("searchWord").value.trim().toLowerCase();
+            
+            if (text === "") {
+                alert("Please enter some text!");
+                return;
+            }
+
+            let words = text.split(/\s+/); // Split words by spaces
+            let charCount = text.replace(/\s/g, "").length; // Remove spaces and count characters
+
+            let wordOccurrences = words.filter(word => word.toLowerCase() === searchWord).length;
+
+            document.getElementById("wordCount").innerText = words.length;
+            document.getElementById("charCount").innerText = charCount;
+            document.getElementById("wordSearch").innerText = searchWord || "N/A";
+            document.getElementById("wordOccurrences").innerText = searchWord ? wordOccurrences : "0";
+        }
+    </script>
+
+</body>
+</html>
